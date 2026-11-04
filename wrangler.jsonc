@@ -5,6 +5,8 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "weichert-llm-chat-app",
+	"workers_dev": false,
+	"preview_urls": false,
 	"main": "src/index.ts",
 	"compatibility_date": "2025-10-08",
 	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
